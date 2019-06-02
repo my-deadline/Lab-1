@@ -108,7 +108,7 @@ func getPNG(featureCollectionJSON []byte, z float64, x float64, y float64) (imag
 
 	return out, nil
 }
-
+ 
 func getMultyCoordinates(featureCollectionJSON []byte) ([][][][][]float64, error) {
 	var featureCollection *geojson.FeatureCollection
 	var err error
